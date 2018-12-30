@@ -45,8 +45,7 @@ function removeFromCart(item) {
       return cart;
     }
   }
-  console.log("That item is not in your cart.")
-  return  cart;// write your code here
+  return  "That item is not in your cart.";// write your code here
 }
 
 function placeOrder(cardNumber) {
