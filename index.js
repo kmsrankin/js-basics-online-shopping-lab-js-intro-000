@@ -45,7 +45,7 @@ function removeFromCart(item) {
       return cart;
     }
   }
-  alert("That item is not in your cart.")
+  console.log("That item is not in your cart.")
   return  cart;// write your code here
 }
 
